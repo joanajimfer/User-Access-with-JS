@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 2rem auto;
+}
+h1, h2{
+    text-align: center;
+    margin-top: 1rem;
+}
+form{
+    width: 45%;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-link{
+    text-decoration: none;
+    text-align: center;
+    background-color: lightcoral;
+    padding: .4rem 2rem;
+    border-radius: 8px;
+    color: white;
+    transition: .4s all;
+}
+.btn-wrap{
+    display: flex;
+    justify-content: center;
+}
+input{
+    background-color: lightgrey;
+    border: none;
+    border-radius: 5px;
+    padding: .4rem 1rem;
+    margin: .5rem;
+}
+.label-password{
+    padding-left: .9rem;
+}
+@media (max-width: 660px){
+    form{
+        width: 90%;
+        align-items: center;
+    }
+}
+
+/*Personal page styles*/
+.main--wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.user--section{
+    background-color: lightskyblue;
+    width: 20%;
+    height: 8rem;
+    margin: 2rem;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.user--section__text{
+    text-align: center;
+}
+
+@media (max-width: 660px){
+    .user--section{
+        margin: .5rem;
+    }
+}
